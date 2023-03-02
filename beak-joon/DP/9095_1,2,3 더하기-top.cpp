@@ -12,31 +12,34 @@ using namespace std;
 // n은 양수고 11보다 작다.
 int dp[11];
 
-int main()
-{
-    // 케이스 갯수
+int d(int num){
+
+    // 1,2,3 일 때
+    if( num == 1 ) return 1;
+    if( num == 2 ) return 2;
+    if( num == 3 ) return 4;
+
+    //동적 저장
+    if( dp[num] != 0 ) return dp[num];
+
+    return dp[num] = d(num - 1) + d(num - 2) + d(num - 3);
+
+}
+
+int main(void) {
+
+    //케이스
     int t;
-    cin >> t;
+    cin >> t; 
 
     // n 저장 공간
     int n = 0;
 
-    // 1,2,3을 만드는 방법 미리 정의
-    dp[1] = 1;
-    dp[2] = 2;
-    dp[3] = 4;
-  
-    // 10까지 dp를 구해둔다.
-    for(int i=4; i<=10; i++){
-
-        dp[i] = dp[i-1] + dp[i-2] + dp[i-3]; 
-
-    }
-
     // 케이스 결과
     for(int i = 0; i < t; i++){
         cin >> n;
-        cout << dp[n] << '\n';
+        cout << d(n) << '\n';
     }
 
 }
+
