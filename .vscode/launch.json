@@ -1,0 +1,73 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Arraycopy",
+      "request": "launch",
+      "mainClass": "Arraycopy",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
+      "name": "Exam_1260",
+      "request": "launch",
+      "mainClass": "beakjoon.그래프.JAVA.Exam_1260",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
+      "name": "Exam_1260",
+      "request": "launch",
+      "mainClass": "beakjoon.그래프.Exam_1260",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
+      "name": "Exam",
+      "request": "launch",
+      "mainClass": "beakjoon.BFSDFS.Exam",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
+      "name": "Exam",
+      "request": "launch",
+      "mainClass": "Exam",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
+      "name": "Exam1",
+      "request": "launch",
+      "mainClass": "Exam1",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
