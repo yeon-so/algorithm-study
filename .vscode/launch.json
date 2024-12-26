@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Exam_2667",
+      "request": "launch",
+      "mainClass": "beakjoon.그래프.JAVA.Exam_2667",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
+      "name": "Exam_2606",
+      "request": "launch",
+      "mainClass": "beakjoon.그래프.JAVA.Exam_2606",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
+      "name": "Exam_2178",
+      "request": "launch",
+      "mainClass": "beakjoon.그래프.JAVA.Exam_2178",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
       "name": "Arraycopy",
       "request": "launch",
       "mainClass": "Arraycopy",
