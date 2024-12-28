@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Exam_2468",
+      "request": "launch",
+      "mainClass": "beakjoon.그래프.JAVA.Exam_2468",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
+      "name": "Exam_5014",
+      "request": "launch",
+      "mainClass": "beakjoon.그래프.JAVA.Exam_5014",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
       "name": "Exam_1697",
       "request": "launch",
       "mainClass": "beakjoon.그래프.JAVA.Exam_1697",
