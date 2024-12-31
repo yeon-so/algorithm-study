@@ -11,6 +11,7 @@
 - 입출력 - <a href="https://github.com/yeon-so/algorithm-study/tree/main/beakjoon/%EC%9E%85%EC%B6%9C%EB%A0%A5" > 해당 목록으로 이동 </a>
 - 자료구조 - <a href="https://github.com/yeon-so/algorithm-study/tree/main/beakjoon/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0" > 해당 목록으로 이동 </a>
 - 정렬 - <a href="https://github.com/yeon-so/algorithm-study/tree/main/beakjoon/%EC%A0%95%EB%A0%AC" > 해당 목록으로 이동 </a>
+- 백트래킹 - <a href="https://github.com/yeon-so/algorithm-study/tree/main/beakjoon/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9"> 목록으로 이동 </a>
 
 #### 프로그래머스
 - SQL - <a href="https://github.com/yeon-so/algorithm-study/tree/main/programmers/SQL" > 해당 목록으로 이동</a>
