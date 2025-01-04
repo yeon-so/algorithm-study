@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Exam_15683",
+      "request": "launch",
+      "mainClass": "beakjoon.백트래킹.JAVA.Exam_15683",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
       "name": "Exam_15655",
       "request": "launch",
       "mainClass": "beakjoon.백트래킹.JAVA.Exam_15655",
