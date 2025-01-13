@@ -10,6 +10,7 @@ public class Exam_1799 {
     static int bCnt = 0;
     static int wCnt = 0;
 
+    // 대각선 검사용
     static int[] dx = {-1, -1, 1, 1};
     static int[] dy = {-1, 1, -1, 1};
 
