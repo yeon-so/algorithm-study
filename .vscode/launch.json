@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Exam_2240",
+      "request": "launch",
+      "mainClass": "beakjoon.DP.JAVA.Exam_2240",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
       "name": "Exam_11066",
       "request": "launch",
       "mainClass": "beakjoon.DP.JAVA.Exam_11066",
