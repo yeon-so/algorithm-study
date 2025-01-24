@@ -1,4 +1,4 @@
-package beakjoon.정렬.JAVA;
+package beakjoon.자료구조.JAVA;
 
 import java.io.BufferedReader;
 import java.io.IOException;
