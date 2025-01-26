@@ -12,7 +12,7 @@ public class Exam_11478 {
         String s = br.readLine();
         HashSet<String> set = new HashSet<>();
 
-        for(int i = 0; i < s.length(); i++) {
+        for(int i = 0; i < s.length(); i++) { 
             StringBuilder sb = new StringBuilder();
             for(int j = i; j< s.length(); j++) {
                 sb.append(s.charAt(j));
