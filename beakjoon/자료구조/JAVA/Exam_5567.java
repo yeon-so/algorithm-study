@@ -61,6 +61,7 @@ public class Exam_5567 {
             int u = Integer.parseInt(st.nextToken());
 
             list[v].add(u);
+            list[u].add(v);
         }
 
         bfs();
