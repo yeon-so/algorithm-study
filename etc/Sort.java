@@ -41,18 +41,18 @@ public class Sort {
     }
 
     static void mergeSort(int[] arr, int left, int right) {
-        if (left == right) return;
+        if (left == right) return; // 배열의 크기가 1이면 종료
 
         int mid = (left + right) / 2;
 
         mergeSort(arr, left, mid);
         mergeSort(arr, mid + 1, right);
-        merge(arr, left, mid, right);
+        merge(arr, left, mid, right); // 정렬된 두 배열 병합
     }
 
     static void merge(int[] arr, int left, int mid, int right) {
-        int n1 = mid - left + 1;
-        int n2 = right - mid;
+        int n1 = mid - left + 1; // 왼쪽 배열 크기
+        int n2 = right - mid; // 오른쪽 배열 크기
 
         int[] L = new int[n1];
         int[] R = new int[n2];
@@ -80,12 +80,12 @@ public class Sort {
         int hi = end;
         
         while (lo <= hi) { 
-            while (lo <= end && arr[lo] >= arr[pivot]) lo++;
-            while (hi > start && arr[hi] <= arr[pivot]) hi--;
+            while (lo <= end && arr[lo] >= arr[pivot]) lo++; // 피벗보다 큰 값 찾기
+            while (hi > start && arr[hi] <= arr[pivot]) hi--; // 피벗보다 작은 값 찾기
             if (lo > hi) 
-                swap(arr, hi, pivot);
+                swap(arr, hi, pivot); // 엇갈리면 피벗과 교체
             else
-                swap(arr, lo, hi);
+                swap(arr, lo, hi); // 엇갈리지 않으면 lo, hi 값 교체
         }
         
         quickSort(arr, start, hi - 1);
