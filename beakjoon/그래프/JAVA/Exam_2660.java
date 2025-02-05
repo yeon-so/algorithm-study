@@ -85,6 +85,7 @@ public class Exam_2660 {
             }
         }
 
+        // 결과 출력
         System.out.println(score + " " + list.size());
         for(int e : list) {
             System.out.print(e + " ");
