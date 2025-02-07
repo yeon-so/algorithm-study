@@ -4,10 +4,11 @@ import java.util.*;
 import java.io.*;
 
 /**
+ * 이분 탐색 사용
  * list[x] + list[y] + list[z] = list[k]
  */
 
-public class Exam_2295 {
+public class Exam_2295_1 {
     static int[] list;
     static int n;
     static ArrayList<Integer> two = new ArrayList<>();
@@ -57,6 +58,7 @@ public class Exam_2295 {
         for(int l = n-1; l > 0; l--) {
             for(int f = 0; f <= l; f++){
                 if(func(list[l] - list[f])){
+                    // 최댓값 갱신
                     result = Math.max(result, list[l]);
                 }
             }
