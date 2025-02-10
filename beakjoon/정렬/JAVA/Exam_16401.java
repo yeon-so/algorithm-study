@@ -14,7 +14,6 @@ public class Exam_16401 {
     static long func(long max) {
         long left = 1;
         long right = max;
-        long result = 0;
 
         while (left <= right) {
             long mid = (left + right) / 2;
@@ -53,6 +52,6 @@ public class Exam_16401 {
 
         long result = func(max);
 
-        System.out.println(result + 1);
+        System.out.println(result - 1);
     }
 }
