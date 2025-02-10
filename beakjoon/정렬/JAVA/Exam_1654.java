@@ -8,7 +8,8 @@ import java.util.StringTokenizer;
 
 /*
  * 인덱스를 찾을 때는 min = 0, max = N으로 해도 제대로 탐색이 가능하나
- * 최댓값을 찾을 때는 mid = 1(자연수니 0은 제외), max = N + 1(값이 max -1이기 때문에 max값을 넘을 수도 있음)로 해야한다.
+ * 최댓값을 찾을 때는 mid = 1(자연수니 0은 제외), max = N + 1(max값이 max를 넘는 경우를 고려)로 해야한다.
+ * 예시 : 5 6 / 6 6 6 6 6
  */
 public class Exam_1654 {
     static int k;
