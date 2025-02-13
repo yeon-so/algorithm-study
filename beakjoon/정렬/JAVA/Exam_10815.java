@@ -13,7 +13,7 @@ public class Exam_10815 {
 
     static boolean func(int temp) {
         int left = 0;
-        int right = n - 1;
+        int right = n - 1; // n으로 할 경우 인덱스 값을 넘기니 주의
 
         while(left <= right) {
             int mid = (left + right) / 2;
