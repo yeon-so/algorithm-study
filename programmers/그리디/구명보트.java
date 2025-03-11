@@ -1,4 +1,4 @@
-package programmers.그리드;
+package programmers.그리디;
 
 import java.util.Arrays;
 
