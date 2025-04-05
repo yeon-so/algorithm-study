@@ -1,7 +1,7 @@
 package codility;
 
 public class TapeEquilibrium {
-    class Solution {
+    class Solution { // 누적합 - O(N)
         public int solution(int[] A) {
             int a = 0;
             int b = 0;
