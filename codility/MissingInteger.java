@@ -25,7 +25,7 @@ public class MissingInteger {
             return min;
         }
 
-    // 2. Set 사용 - O(N)
+    // 2. Set 사용 - O(N), worst - O(N * log N) 
     public int solution2(int[] A) {
             int min = 1;
 
@@ -39,7 +39,14 @@ public class MissingInteger {
                 set.add(A[i]);
             }
 
-            return min;
+            for(int i = 1; i <= A.length; i++) {
+                if(!set.contains(i)) {
+                    return i;
+                }
+
+            }
+
+            return A.length + 1;
     }
 
 }

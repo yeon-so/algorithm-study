@@ -1,14 +1,14 @@
 class Solution {
     public int[] solution(int N, int[] A) {
         int[] result = new int[N];
-        int cur = 0;
+        int min = 0;
         int max = 0;
 
         for(int i = 0; i < A.length; i++) {
             if(A[i] <= N) {
 
-                if(cur > 0 && result[A[i]-1] < cur) {
-                    result[A[i]-1] = cur;
+                if(min > 0 && result[A[i]-1] < min) {
+                    result[A[i]-1] = min;
                 }
 
                 result[A[i]-1]++;
@@ -17,13 +17,13 @@ class Solution {
                     max = result[A[i]-1];
                 }
             } else {
-                cur = max;
+                min = max;
             }
         }
 
         for(int i = 0; i < result.length; i++) {
-            if(cur != 0 && result[i] < cur) {
-                result[i] = cur;
+            if(min != 0 && result[i] < min) {
+                result[i] = min;
             }
         }
 
