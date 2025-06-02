@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "알람시계_2884",
+      "request": "launch",
+      "mainClass": "beakjoon.구현.알람시계_2884",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
       "name": "Exam_11399",
       "request": "launch",
       "mainClass": "beakjoon.그리디.JAVA.Exam_11399",
