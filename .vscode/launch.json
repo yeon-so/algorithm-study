@@ -3,17 +3,24 @@
   "configurations": [
     {
       "type": "java",
-<<<<<<< HEAD
-      "name": "Exam_23971",
+      "name": "Exam_23882",
       "request": "launch",
-      "mainClass": "beakjoon.수학.JAVA.Exam_23971",
+      "mainClass": "beakjoon.정렬.JAVA.Exam_23882",
       "projectName": "algorithm-study_c0ed037c"
-=======
+    },
+    {
+      "type": "java",
       "name": "알람시계_2884",
       "request": "launch",
       "mainClass": "beakjoon.구현.알람시계_2884",
       "projectName": "algorithm-study_afd4bae2"
->>>>>>> 6619afd21fed3f3a53ed9dacc979e2b0c29fb943
+    },
+    {
+      "type": "java",
+      "name": "Exam_23971",
+      "request": "launch",
+      "mainClass": "beakjoon.수학.JAVA.Exam_23971",
+      "projectName": "algorithm-study_c0ed037c"
     },
     {
       "type": "java",
