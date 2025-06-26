@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Exam_29700",
+      "request": "launch",
+      "mainClass": "beakjoon.슬라이딩윈도우.Exam_29700",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
       "name": "Exam_11003",
       "request": "launch",
       "mainClass": "beakjoon.자료구조.JAVA.Exam_11003",
