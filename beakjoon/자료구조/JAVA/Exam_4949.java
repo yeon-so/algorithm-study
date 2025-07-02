@@ -45,9 +45,9 @@ public class Exam_4949 {
             }
 
             if(stack.empty()) {
-                System.out.println("yes\n");
+                System.out.println("yes");
             } else { 
-                System.out.println("no\n");
+                System.out.println("no");
             }
         }
     }
