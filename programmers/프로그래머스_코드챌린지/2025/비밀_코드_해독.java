@@ -1,8 +1,6 @@
-package programmers.프로그래머스_코드챌린지.2025;
-
 import java.util.*;
 
-public class 비밀 코드 해독 {
+public class 비밀_코드_해독 {
     public int solution(int n, int[][] q, int[] ans) {
         int answer = 0;
         

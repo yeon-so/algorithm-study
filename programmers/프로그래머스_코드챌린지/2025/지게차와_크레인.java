@@ -1,8 +1,6 @@
-package programmers.프로그래머스_코드챌린지.2025;
-
 import java.util.*;
 
-public class 지게차와 크레인 {
+public class 지게차와_크레인 {
      // 행
     static int n;
     // 열

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "서버_증설_횟수",
+      "request": "launch",
+      "mainClass": "서버_증설_횟수",
+      "projectName": "algorithm-study_afd4bae2"
+    },
+    {
+      "type": "java",
       "name": "Exam_24060",
       "request": "launch",
       "mainClass": "beakjoon.재귀.Exam_24060",
